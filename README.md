@@ -2,21 +2,23 @@
 
 - Gebruik de [documentatie](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/border) over borders om deze oefening te maken samen met de tutorial van James Montemagno op [YouTube](https://www.youtube.com/watch?v=x-kyAeAGFVg).
 - Probeer een ronde profielfoto op te bouwen zoals getoond in de screenshot: 
-![screenshot](assets/round_profile.png)
 	- De foto heeft een hoogte en breedte van 150
 	- De dikte van de kader is 4 en hij is groen
-	- De schaduw is *DarkGray* en staat naar rechtsonder 
+	- De schaduw is *DarkGray* en staat naar rechtsonder
+
+![screenshot](assets/round_profile.png)
 
 (de getoonde afbeelding staat in de solution, gebruik eventueel een eigen foto of image)
 
-- Maak nu een kaartje met info over een persoon: 
-![screenshot](assets/rounded_card.png)
+- Maak nu een kaartje met info over een persoon:
 	- Het kaartje heeft een hoogte van 120
 	- De hoeken hebben een afronding van 15
 	- De naam van de persoon is vetjes gedrukt
 	- Het kaartje heeft enkel aan de linkerkant een afronding (de foto rechts)
 	- De schaduw is dezelfde als in de vorige opdracht
 	- Voor de layout mag je zelf kiezen hoe je deze bouwt (Grid, Stacklayouts, Flexlayouts )
+
+![screenshot](assets/rounded_card.png)
 
 ## Extra: tap gesture
 
@@ -40,4 +42,3 @@ Kan je er voor zorgen dat dit bij elke klik lukt?
 # Views - Experimenten
 
 Voeg nog enkele Views uit de slides toe aan deze applicatie en experimenteer met verschillende properties en hun waardes. 
-
