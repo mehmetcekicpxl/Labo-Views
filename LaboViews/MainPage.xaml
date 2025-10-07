@@ -37,6 +37,34 @@
                     
                 </Grid>
             </Border>
+            
+            <Border Stroke="Green" HeightRequest="120" StrokeThickness="4" StrokeShape="RoundRectangle 10" BackgroundColor="Black">
+                <Border.Shadow>
+                    <Shadow Brush="black" Offset="10,10" Opacity="0.8"></Shadow>
+                </Border.Shadow>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="CardClicked"></TapGestureRecognizer>
+
+
+                </Border.GestureRecognizers>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="profile_picture.jpg" Grid.RowSpan="3"></Image>
+                    <Label Grid.Column="1"  Grid.Row="0" TextColor="White" Padding="10,5,0,0">Name: Mehmet Cekic</Label>
+                    <Label Grid.Column="1" Grid.Row="1" TextColor="White" Padding="10,5,0,0">Age: 33</Label>
+                    <Label Grid.Column="1"   Grid.Row="2" TextColor="White" Padding="20,5,0,0">Job: Student</Label>
+                    
+                </Grid>
+            </Border>
 
         </VerticalStackLayout>
     </ScrollView>
